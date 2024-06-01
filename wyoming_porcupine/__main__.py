@@ -172,9 +172,12 @@ async def main() -> None:
                         ),
                         installed=True,
                         languages=[kw.language],
+                        version="1.0.0",
+                        phrase="Asuka",
                     )
                     for kw in keywords.values()
                 ],
+                version="3.0.2",
             )
         ],
     )
